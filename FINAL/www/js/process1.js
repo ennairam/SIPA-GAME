@@ -15,6 +15,11 @@
         game.physics.startSystem(Phaser.Physics.ARCADE);
         game.add.sprite(0, 0, 'background');
 
+        this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        this.scale.pageAlignHorizontally = true;
+        this.scale.pageAlignVertically = true;
+        this.scale.setScreenSize(true);
+
         sound = game.add.audio('sound',1, true);
         sound.loop =true;
         sound.play();

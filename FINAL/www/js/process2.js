@@ -57,11 +57,6 @@ var process = function() {
     restart:function(){
         location.reload();
     },
-// }
-
-// }();var process = function() {
-//        "use strict";
-//         return {
  
 
  scoreMe:function(player,shuttle){
